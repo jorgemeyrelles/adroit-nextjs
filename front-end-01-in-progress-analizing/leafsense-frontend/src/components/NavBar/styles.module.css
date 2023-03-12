@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+
+  grid-gap: 16px;
+}
+
+.navbar_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.navbar_nocontent {
+  display: flex;
+}
+
+.navbar_divider {
+  margin-top: 25px !important;
+}
+
+.navbar_show_reports {
+  border: 2px solid #a5c9ea !important;
+  border-radius: 16px !important;
+
+  color: #a5c9ea !important;
+  background-color: #ffffff !important;
+}
+
+.navbar_create_report {
+  align-self: flex-start !important;
+
+  border: 2px solid #f5f5f5 !important;
+  border-radius: 16px !important;
+
+  color: rgba(0, 0, 0, 0.23) !important;
+  background-color: #ffffff !important;
+}

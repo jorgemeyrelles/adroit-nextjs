@@ -1,0 +1,19 @@
+.container {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.container_period {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
